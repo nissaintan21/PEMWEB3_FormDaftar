@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+
+--color-invofest-color:#7f1d1d;
+--color--invofest-secondary:#fca5a5;
+}
