@@ -63,6 +63,14 @@ export default function Login() {
         error={errors.password?.message}
       />
 
+      <InputBio
+        label="Bio"
+        name="bio"
+        register={register}
+        error={errors.bio?.message}
+        placeholder="Tulis bio Anda"
+      />
+
       <SelectEvent
         label="Kategori Event"
         name="category"
@@ -75,15 +83,6 @@ export default function Login() {
         ]}
         error={errors.category?.message}
       />
-
-      <InputBio
-        label="Bio"
-        name="bio"
-        register={register}
-        error={errors.bio?.message}
-        placeholder="Tulis bio Anda"
-      />
-
       <Button title="Daftar" variant="primary" />
     </form>
 
