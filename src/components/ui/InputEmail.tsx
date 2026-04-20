@@ -1,5 +1,3 @@
-import {useState} from "react";
-
 interface InputEmailProps {
   label: string;
   name: string;

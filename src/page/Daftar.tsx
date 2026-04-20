@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -14,7 +13,7 @@ type FormData={
     email: string;
     password: string;
     category: string;
-    bio?: string;
+    bio: string;
 }
 
 const schema =z.object ({
